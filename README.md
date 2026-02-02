@@ -68,8 +68,8 @@ public class kumleshkurre {
     public static void main(String[] args) {
 
         Connection con;
-        Statement stmt;
-        ResultSet rs;
+        Statement stmt;     // select query use
+        ResultSet rs;      // data store
 
         try {
             // Database Connection
@@ -112,14 +112,14 @@ import java.sql.Statement;
 public class CSpgconnection {
 
     Connection con;
-    Statement stmt;
-    ResultSet rs;
+    Statement stmt;        // select query use
+    ResultSet rs;         // data store
 
     public static void main(String[] args) {
         new CSpgconnection();   // Object create hote hi constructor call hoga
     }
 
-    public CSpgconnection() {
+    public CSpgconnection() {        // constructor
         try {
             // Database Connection
             con = DriverManager.getConnection(
