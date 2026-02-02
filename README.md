@@ -116,7 +116,7 @@ public class CSpgconnection {
     ResultSet rs;         // data store
 
     public static void main(String[] args) {
-        new CSpgconnection();   // Object create hote hi constructor call hoga
+        new CSpgconnection();   // Object create hote he constructor call hoga
     }
 
     public CSpgconnection() {        // constructor
