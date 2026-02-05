@@ -55,7 +55,7 @@ It includes examples of:
 - PostgreSQL service must be running
 
 ### 🔹 Example 1: Package Name & Class Name Same (SELECT Query)
-```
+```js
   package kumleshkurre;
 
 import java.sql.Connection;
@@ -101,8 +101,8 @@ public class kumleshkurre {
 ```
 ### 🔹 Example 2: Constructor-Based Connection
 - (Package Name & Class Name Different)
-```
-package menu;
+```js
+package kumleshkurre;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -160,5 +160,8 @@ public class CSpgconnection {
 - MVC architecture
 
   ## 👤 Author
-- Kumlesh Kurre
+  Kumlesh Kurre
 - Java | PostgreSQL | JDBC | Backend Enthusiast
+
+## ⭐ Support
+If you like this project, please ⭐ star the repository to support my work!
